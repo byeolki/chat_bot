@@ -44,3 +44,5 @@ async def on_message(message):
             return await message.reply(f"{x[2]}")
         x = random.choice(li)
         return await message.reply(f"{x[2]}")
+
+client.run('토큰 입력')
